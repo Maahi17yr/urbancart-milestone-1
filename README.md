@@ -5,6 +5,7 @@ Regression project for UrbanCart finance: predict `NextMonthSpend` from customer
 ## What's in this repo
 
 - `Assignment2.ipynb` — full walkthrough: data check, outliers, train/test split, Linear Regression vs Random Forest, test metrics, and recommendation.
+- `milestone-1-customer-spend.csv` — ~20,000 customers used to train and test the models.
 
 ## Results (held-out test set)
 
@@ -17,5 +18,5 @@ Regression project for UrbanCart finance: predict `NextMonthSpend` from customer
 
 ## How to run
 
-1. Put `milestone-1-customer-spend.csv` next to the notebook, or update the `read_csv` path.
+1. The CSV is in this repo. Update the notebook `read_csv` path to `milestone-1-customer-spend.csv` if it still points to your Downloads folder.
 2. Open `Assignment2.ipynb` in Jupyter and run all cells.
